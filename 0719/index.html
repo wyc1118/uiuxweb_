@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                primary: '#da373d',
+              }
+            }
+          }
+        }
+      </script>
+    <title>Document</title>
+</head>
+<body>
+    <!-- <button class="w-[120px] bg-red-600 text-black py-2 px-2 rounded-md border">123</button>
+    <button class="w-[120px] bg-gray-400 text-white py-2 px-3 rounded-md border">456</button>
+    <button class="w-[120px] bg-gray-900 text-white py-2 px-4 rounded-md">789</button>
+    <button class="w-[120px] bg-slate-600 text-white py-2 px-7 rounded-md">000</button> -->
+    <!-- <button class="rounded-full py-5 px-5 bg-amber-200 hover:bg-orange-400">
+      <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 384 512">! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc.<path d="M192 512C86 512 0 426 0 320C0 228.8 130.2 57.7 166.6 11.7C172.6 4.2 181.5 0 191.1 0h1.8c9.6 0 18.5 4.2 24.5 11.7C253.8 57.7 384 228.8 384 320c0 106-86 192-192 192zM96 336c0-8.8-7.2-16-16-16s-16 7.2-16 16c0 61.9 50.1 112 112 112c8.8 0 16-7.2 16-16s-7.2-16-16-16c-44.2 0-80-35.8-80-80z"/></svg>
+    </button> -->
+    <!-- <button>
+    <div class="w-7 h-1 bg-black"></div>
+    <div class="w-7 h-1 bg-black"></div>
+    <div class="w-7 h-1 bg-black"></div>
+  </button> -->
+  <!-- <div class="w-full h-screen bg-slate-300">
+    <div class="w-40 h-screen bg-slate-100">
+      <button class="w-30 h-20 border-solid border-blue-300"></button>
+      <button class="w-30 h-20 border-blue-300"></button>
+      <button class="w-30 h-20 border-blue-300"></button>
+      <button class="w-30 h-20 border-blue-300"></button>
+      <button class="w-30 h-20 border-blue-300"></button>
+    </div>
+  </div> -->
+  <!-- <div class="w-[300px] h-auto p-5 rounded border border-gray-300 relative">
+    <div class="w-full bg-gray-300 h-32"></div>
+    <h1>Title</h1>
+    <p>content</p>
+    <button class="absolute -top-2 -right-2 bg-red-600 rounded-full w-5 h-5 flex justify-center items-center">
+      <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512">! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc.<path d="M256 48a208 208 0 1 1 0 416 208 208 0 1 1 0-416zm0 464A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM175 175c-9.4 9.4-9.4 24.6 0 33.9l47 47-47 47c-9.4 9.4-9.4 24.6 0 33.9s24.6 9.4 33.9 0l47-47 47 47c9.4 9.4 24.6 9.4 33.9 0s9.4-24.6 0-33.9l-47-47 47-47c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0l-47 47-47-47c-9.4-9.4-24.6-9.4-33.9 0z"/></svg>
+    </button>
+  </div>
+
+  <div class="w-[300px] h-auto p-5 rounded border border-gray-300 relative">
+    <div class="w-full bg-gray-300 h-32"></div>
+    <h1>Title</h1>
+    <p>content</p>
+
+    <button class="absolute -top-2 -right-2 bg-teal-400 rounded-full w-5 h-5 flex justify-center items-center">
+        <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 384 512">! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc.<path d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z"/></svg>
+    </button>
+  </div> -->
+<!-- <div class="flex flex-col">
+  <button class="w-[100px] h-auto bg-slate-100 px-2 py-2">123</button>
+  <button class="w-[100px] h-auto bg-slate-100 px-2 py-2">456</button>
+  <button class="w-[100px] h-auto bg-slate-100 px-2 py-2">789</button>
+</div> -->
+<div class="px-8 py-3 w-full h-16 fixed text-white flex flex-row font-bold justify-between">
+  <h1>Logo</h1>
+  <div>
+    <ul class="z-50 hidden lg:flex gap-6 ">
+      <li class="px-5"><a href="">About us</a></li>
+      <li class="px-5"><a href="">Contant us</a></li>
+      <li class="px-5"><a href="">News</a></li>
+      <li class="px-5"><a href="">Products</a></li>
+    </ul>
+    <div class="z-40 flex lg:hidden flex-col space-y-1">
+      <input class="peer hidden" type="checkbox" id="mobile-menu">
+     <div class="w-7 h-1 bg-white rounded-full peer-checked:rotate-45 "></div>
+     <div class="w-7 h-1 bg-white rounded-full peer-checked:translate-x-10 duration-200"></div>
+     <div class="w-7 h-1 bg-white rounded-full peer-checked:-rotate-45 "></div>
+    </div>
+  </div>
+</div>
+<div class="w-full h-screen text-[50px] text-white fixed flex justify-center items-center">
+  welcome to my website
+</div>
+
+<div>
+  <img src="/0719/banner.jpg" alt="">
+</div>
+</body>
+
+</html>
